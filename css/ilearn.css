@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu|Lato|Open+Sans|Roboto|Montserrat");
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+
+.nav_bar {
+  z-index: 99999;
+  width: 100%;
+  height: 80px;
+  background: #0aff2a;
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 2px 4px #464646; }
+  .nav_bar .logo_and_name {
+    position: absolute;
+    left: 5%;
+    top: 0px;
+    color: white; }
+    .nav_bar .logo_and_name .logo {
+      font-family: "Lato", sans-serif;
+      font-size: 60px;
+      margin: 5px 0 0 0; }
+    .nav_bar .logo_and_name .name_block {
+      position: absolute;
+      top: 10px;
+      left: 110%; }
+      .nav_bar .logo_and_name .name_block .myName {
+        color: white;
+        position: absolute;
+        left: 110%;
+        font-family: "Ubuntu";
+        font-size: 23px; }
+  .nav_bar .menu {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    position: absolute;
+    right: 8%;
+    top: 20px;
+    font-size: 17px;
+    font-family: "Ubuntu"; }
+    .nav_bar .menu ul {
+      list-style: none;
+      display: inline-block;
+      padding: 0;
+      margin: 0; }
+      .nav_bar .menu ul .menu_button {
+        width: 120px;
+        height: 40px;
+        line-height: 50px;
+        position: relative;
+        color: white;
+        float: left;
+        cursor: pointer;
+        transition: all 0.3s ease; }
+        .nav_bar .menu ul .menu_button:hover {
+          background: #0ae628; }
+
+.content {
+  width: 600px;
+  height: 1000px;
+  padding: 100px 0 0 0;
+  position: relative;
+  margin: 0 auto;
+  background: #fafafa;
+  text-align: center;
+  box-shadow: 0 15px 30px -5px #323232; }
+  .content p {
+    margin: 0 auto;
+    max-width: 500px;
+    height: 70px;
+    font-family: "Lato", sans-serif; }
+
+/*# sourceMappingURL=ilearn.css.map */
