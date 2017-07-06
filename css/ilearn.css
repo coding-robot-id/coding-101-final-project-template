@@ -10,9 +10,9 @@ html, body {
   width: 100%;
   height: 80px;
   
-  // CHANGE NAV BAR BACKGROUND
+  /* CHANGE NAV BAR BACKGROUND */
   background: #0aff2a;
-  // CHANGE NAV BAR BACKGROUND
+  /* CHANGE NAV BAR BACKGROUND */
   
   position: fixed;
   top: 0;
@@ -60,9 +60,9 @@ html, body {
         cursor: pointer;
         transition: all 0.3s ease; }
         .nav_bar .menu ul .menu_button:hover {
-          // CHANGE MENU BUTTON COLOR ON MOUSE HOVER
+          /* CHANGE MENU BUTTON COLOR ON MOUSE HOVER */
           background: #0ae628; 
-          // CHANGE MENU BUTTON COLOR ON MOUSE HOVER
+          /* CHANGE MENU BUTTON COLOR ON MOUSE HOVER */
     }
 
 .content {
