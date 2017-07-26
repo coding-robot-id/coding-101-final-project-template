@@ -80,4 +80,9 @@ html, body {
     height: 70px;
     font-family: "Lato", sans-serif; }
 
+
+img {
+  max-width: 600px;
+}
+
 /*# sourceMappingURL=ilearn.css.map */
